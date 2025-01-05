@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.job-item {
+    border-left: 4px solid #007bff;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.job-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.job-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.job-company {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.job-location {
+    color: #28a745;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
